@@ -8,6 +8,5 @@ Works with English, French and German speech in real time on an m4 max MacBook P
 2.
 
 ```bash
-uv run livetranscribe.py
+uv run live_transcribe.py
 ```
-
