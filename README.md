@@ -10,3 +10,15 @@ Works with English, French and German speech in real time on an m4 max MacBook P
 ```bash
 uv run live_transcribe.py
 ```
+
+### Experimental language support
+
+by injecting short audio snippets in specific languages before starting to transcribe the microphone audio, we can force the model to try to use other languages than English or French. Currently works somewhat well with Spanish, German and Japanese:
+
+```bash
+uv run live_transcribe.py -l ger #German
+
+uv run live_transcribe.py -l esp #Spanish
+
+uv run live_transcribe.py -l jap #Japanese
+```
